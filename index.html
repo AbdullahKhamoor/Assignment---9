@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- todo   Q1   -->
+
+    <div class="signup">
+     <h1>Sign Up Form</h1>
+        <form action="">
+        <input id="firstName" type="text" placeholder="First Name"> <hr> <br /> 
+        <input id="lastName" type="text" placeholder="Last Name"> <hr> <br />
+        <input id = "email" type="email" placeholder="Email"> <hr> <br />
+        <input id="password" type="password" placeholder="password"> <hr> <br />
+        
+    </form>
+
+    <button class="btn" onclick="inputAct()" >Sign Up</button>
+  
+</div>
+
+<div id="displayData"></div>
+
+<!-- todo  ====   Q2  ====  -->
+<h1>Content</h1>
+<p class="halfDetail" id="para">Lorem ipsum, dolor  <a  class="color" onclick="readMore()"> ReadMore</a>    
+<!-- <p class="fullDetail" id="para" style="display: none;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. <a  onclick="readMore()"> ReadMore</a>     -->
+    
+    <!-- todo =========    Q3  =====   -->
+    
+    <table>
+        <tr>
+        <th>INDEX</th>
+        <th>NAME</th>
+        <th>SCORE</th>
+    </tr>
+    <tr id="tr1">
+        <td>0</td>
+        <td class="nameA" id="name">John</td>
+        <td class="scoreA" id="score">10</td>
+        <td><button onclick="Deletea()">Delete</button>  <button onclick="edit()"> Edit</button> </td>
+   </tr>
+    <tr id="tr2">
+        <td>1</td>
+        <td class="nameA" id="name2">AHMED</td>
+        <td class="scoreA" id="score2">15</td>
+        <td><button onclick="Deleteb()">Delete</button> <button onclick="edit2()"> Edit</button></td>
+   </tr>
+    <tr id="tr3">
+        <td>2</td>
+        <td class="nameA" id="name3">ALI</td>
+        <td class="scoreA" id="score3">20</td>
+        <td><button onclick="Deletec()">Delete</button> <button onclick="edit3()"> Edit</button></td>
+   </tr>
+    <tr id="tr4">
+        <td>3</td>
+        <td  class="nameA" id="name4">HASSAN</td>
+        <td class="scoreA" id="score4">25</td>
+        <td><button onclick="Deleted()">Delete</button> <button onclick="edit4()"> Edit</button></td>
+   </tr>
+  
+   
+    </table>
+
+
+
+    <script src="./app.js"></script>
+   
+</body>
+</html>
